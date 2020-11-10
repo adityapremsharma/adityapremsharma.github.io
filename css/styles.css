@@ -168,24 +168,24 @@ p {
   }
 
   .section-heading {
-    font-size: 1.5rem;
+    font-size: 1.5rem !important;
   }
 
   .testimonial-text {
-    font-size: 1.5rem;
+    font-size: 1.5rem !important;
   }
 
   .testimonial-image {
-    width: 20%;
-    margin: 40px;
+    width: 20% !important;
+    margin: 40px !important;
   }
 
   .price-text {
-    font-size: 2rem;
+    font-size: 2rem !important;
   }
 
   .press-logo {
-    width: 25%;
-    margin: 20px 20px 50px;
+    width: 25% !important;
+    margin: 20px 20px 50px !important;
   }
 }
