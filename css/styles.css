@@ -165,11 +165,27 @@ p {
 
   .big-heading{
     font-size: 2rem !important;
-    line-height: 1 !important;
   }
 
   .section-heading {
     font-size: 1.5rem;
-    line-height: 1;
+  }
+
+  .testimonial-text {
+    font-size: 1.5rem;
+  }
+
+  .testimonial-image {
+    width: 20%;
+    margin: 40px;
+  }
+
+  .price-text {
+    font-size: 2rem;
+  }
+
+  .press-logo {
+    width: 25%;
+    margin: 20px 20px 50px;
   }
 }
