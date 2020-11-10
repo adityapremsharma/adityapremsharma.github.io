@@ -163,8 +163,12 @@ p {
     text-align: center !important;
   }
 
+  .container-fluid {
+    padding: 7% 10% !important;
+  }
+
   .download-button {
-    margin: 5% 5% 5% 5%;
+    margin: 5% 0;
   }
 
   .title-image {
@@ -182,6 +186,10 @@ p {
 
   .testimonial-text {
     font-size: 1.5rem !important;
+  }
+
+  #testimonials .container-fluid {
+    padding: 7% 15% 10% !important;
   }
 
   .testimonial-image {
