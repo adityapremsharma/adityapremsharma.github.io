@@ -159,7 +159,7 @@ p {
 }
 
 @media (max-width: 1024px) {
-  #title {
+  #title .row {
     text-align: center !important;
   }
 
@@ -189,11 +189,15 @@ p {
   }
 
   #testimonials .container-fluid {
-    padding: 7% 15% 10% !important;
+    padding: 7% 15% 15% !important;
   }
 
   .testimonial-image {
     width: 20% !important;
+  }
+
+  #pricing {
+    padding: 50px;
   }
 
   .price-text {
