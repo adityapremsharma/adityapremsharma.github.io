@@ -302,6 +302,10 @@ p {
     line-height: 2rem;
   }
 
+  #skills {
+    padding: 50px 20px;
+  }
+
   #projects {
     padding: 50px 20px;
   }
