@@ -1,0 +1,334 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.inherit {
+  color: inherit !important;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+  text-align: center;
+}
+
+#academic-achievements h2 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif !important;
+  color: #111;
+  text-align: center;
+  padding: 5% 0 2%;
+}
+
+p {
+  padding: 5% 0;
+  line-height: 2rem;
+}
+
+.icons {
+  padding: 4% 10% 0 !important;
+  text-align: center;
+}
+
+#intro, #certifications, #projects, #education, #extra-curricular {
+  position: relative;
+  opacity: 0.70;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.back {
+  color: rgba(255, 255, 255, .5);
+  float: right;
+}
+
+.back:hover {
+  color: #F2F1F0;
+}
+
+/* Intro Section */
+#intro {
+  background-image: url("../images/intro.jpg");
+  min-height: 100%;
+}
+
+.navbar {
+  padding: 2% 3% !important;
+}
+
+.navbar-brand {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem !important;
+  color: #F2F1F0 !important;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+#certifications {
+  background-image: url("../images/certifications.jpg");
+  min-height: 400px;
+}
+
+#certifications .text-format-2 p {
+  padding: 0;
+  text-align: center;
+  color: rgba(255, 255, 255, .5);
+}
+
+#projects {
+  background-image: url("../images/projects.jpg");
+  min-height: 400px;
+  padding: 50px 80px;
+}
+
+#projects p {
+  padding: 0 150px 20px;
+  line-height: 2rem;
+  color: rgba(255, 255, 255, .5);
+  text-align: center;
+}
+
+#projects h3 {
+  color: rgba(255, 255, 255, .5);
+  font-size: 1rem;
+  padding: 10px 0;
+}
+
+#projects h3:hover {
+  color: #F2F1F0;
+}
+
+#about-me {
+  color: #777;
+  background-color: white;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+}
+
+#skills {
+  position: relative;
+  color: #ddd;
+  background-color: #282E34;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+}
+
+#skills .icons {
+  padding: 4% 2% 0 !important;
+}
+
+#skills p {
+  padding: 0;
+  display: inline;
+  line-height: 3rem;
+}
+
+.text-format-2 {
+  background-color: transparent;
+  font-size: 25px;
+  color: #F2F1F0 !important;
+  letter-spacing: 10px;
+}
+
+.padding-1 {
+  position: relative;
+  color: #000;
+  padding: 100px !important;
+}
+
+.padding-2 {
+  position: relative;
+  color: #000;
+  padding: 70px !important;
+}
+
+.text-format-1 {
+  background-color: #111;
+  color: rgba(255, 255, 255, .5);
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  margin-bottom: 30px;
+}
+
+.text-format-1:hover {
+  background-color: #090800;
+  color: #ddd;
+}
+
+.elements {
+  color: rgba(255, 255, 255, .5);
+}
+
+.elements:hover {
+  color: #F2F1F0;
+}
+
+#academic-achievements {
+  color: #777;
+  background-color: #ddd;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+}
+
+#academic-achievements p {
+  padding: 0;
+  line-height: 2rem;
+  padding: 0 25%;
+  text-align: center;
+}
+
+#education {
+  background-image: url("../images/education.jpg");
+  min-height: 400px;
+  padding: 0 0 30px;
+}
+
+#education h3 {
+  color: rgba(255, 255, 255, .5) !important;
+  padding: 0;
+}
+
+#education h2 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 15px "Lato", sans-serif !important;
+  color: #111;
+  text-align: center;
+  padding: 2% 20% 2%;
+  color: rgba(255, 255, 255, .5);
+}
+
+#education h2:hover {
+  color: #F2F1F0;
+}
+
+#education p {
+  line-height: 0.5rem;
+  padding: 0 25%;
+  text-align: center;
+  color: rgba(255, 255, 255, .5);
+  font-size: 1rem;
+}
+
+#education .padding-2 {
+  padding: 70px 70px 20px !important;
+}
+
+#language-proficiency {
+  position: relative;
+  color: #ddd;
+  background-color: #282E34;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+}
+
+#language-proficiency h3 {
+  text-align: left;
+  color: #ddd;
+}
+
+#language-proficiency p {
+  padding: 0 5%;
+  display: inline;
+  line-height: 3rem;
+}
+
+#extra-curricular {
+  background-image: url("../images/extracurricular.jpg");
+  min-height: 400px;
+  padding: 0 150px;
+}
+
+#extra-curricular p {
+  line-height: 2rem;
+  color: rgba(255, 255, 255, .5);
+  text-align: center;
+  padding: 5% 0 3%;
+}
+
+#extra-curricular h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 15px "Lato", sans-serif !important;
+  text-align: center;
+  color: rgba(255, 255, 255, .5);
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media (max-width: 1024px) {
+  .navbar-brand {
+    font-size: 1.2rem !important;
+  }
+
+  .nav-item {
+    padding: 20% 3%;
+  }
+
+  .padding-1 {
+    padding: 40px 70px !important;
+  }
+
+  .text-format-1 {
+    font-size: 15px;
+    letter-spacing: 8px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .text-format-2 {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 0 0 30px;
+    line-height: 2rem;
+  }
+
+  #projects p {
+    line-height: 2rem;
+    padding: 0;
+  }
+
+  #academic-achievements h3 {
+    font-size: 1.2rem;
+  }
+
+  #academic-achievements h2 {
+    font-size: 1rem !important;
+  }
+
+  #academic-achievements p {
+    padding: 0 10%;
+  }
+
+  #education h2 {
+    padding: 2% 10% 2%;
+  }
+
+  #language-proficiency h3 {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  #extra-curricular {
+    padding: 30px 50px 0;
+  }
+
+  #extra-curricular p {
+    padding: 5% 0 0;
+  }
+}
