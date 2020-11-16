@@ -303,7 +303,7 @@ p {
   }
 
   #skills {
-    padding: 50px 40px 0 20px;
+    padding: 50px 40px 50px 20px;
   }
 
   #projects {
@@ -345,7 +345,7 @@ p {
   }
 
   #extra-curricular {
-    padding: 30px 50px 0;
+    padding: 30px 50px 50px;
   }
 
   #extra-curricular p {
