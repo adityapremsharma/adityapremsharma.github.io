@@ -281,7 +281,11 @@ p {
   }
 
   .padding-1 {
-    padding: 40px 70px !important;
+    padding: 40px 20px !important;
+  }
+
+  .padding-2 {
+    padding: 70px 20px !important;
   }
 
   .text-format-1 {
@@ -298,9 +302,17 @@ p {
     line-height: 2rem;
   }
 
+  #projects {
+    padding: 50px 20px;
+  }
+
   #projects p {
     line-height: 2rem;
     padding: 0;
+  }
+
+  #academic-achievements {
+    padding: 50px 20px;
   }
 
   #academic-achievements h3 {
@@ -317,6 +329,10 @@ p {
 
   #education h2 {
     padding: 2% 10% 2%;
+  }
+
+  #language-proficiency {
+    padding: 50px 20px;
   }
 
   #language-proficiency h3 {
