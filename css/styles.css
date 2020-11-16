@@ -1,215 +1,334 @@
-body {
-  font-family: 'Montserrat';
-  text-align: center !important;
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
+.inherit {
+  color: inherit !important;
 }
 
 h3 {
-  font-size: 1.5rem !important;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+  text-align: center;
+}
+
+#academic-achievements h2 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif !important;
+  color: #111;
+  text-align: center;
+  padding: 5% 0 2%;
 }
 
 p {
-  padding: 0 15%;
-  color: #8f8f8f;
+  padding: 5% 0;
+  line-height: 2rem;
 }
 
-.container-fluid {
-  padding: 7% 15% !important;
+.icons {
+  padding: 4% 10% 0 !important;
+  text-align: center;
 }
 
-/* Sections */
-.colored-section {
-  background-color: #ff4c68;
-  color: #fff;
+#intro, #certifications, #projects, #education, #extra-curricular {
+  position: relative;
+  opacity: 0.70;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.white-section {
-  background-color: #fff;
+.back {
+  color: rgba(255, 255, 255, .5);
+  float: right;
 }
 
-.big-heading {
-  font-family: 'Montserrat', sans-serif !important;
-  font-weight: 900 !important;
-  font-size: 3.5rem !important;
-  line-height: 1.5 !important;
+.back:hover {
+  color: #F2F1F0;
 }
 
-.section-heading {
-  font-size: 3rem;
-  line-height: 1.5;
+/* Intro Section */
+#intro {
+  background-image: url("../images/intro.jpg");
+  min-height: 100%;
 }
 
-/* Navigation Bar */
 .navbar {
-  padding: 0 0 4.5rem !important;
+  padding: 2% 3% !important;
 }
 
 .navbar-brand {
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 2.5rem !important;
-  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem !important;
+  color: #F2F1F0 !important;
 }
 
 .nav-item {
   padding: 0 18px;
 }
 
-.nav-link {
-  font-size: 1.2rem;
-  font-family: 'Montserrat';
-  font-weight: 300;
+#certifications {
+  background-image: url("../images/certifications.jpg");
+  min-height: 400px;
 }
 
-/* Title Section */
-#title .container-fluid {
-  padding: 3% 15% 7% !important;
-  text-align: left;
+#certifications .text-format-2 p {
+  padding: 0;
+  text-align: center;
+  color: rgba(255, 255, 255, .5);
 }
 
-/* Download Buttons */
-.download-button {
-  margin: 5% 3% 5% 0;
+#projects {
+  background-image: url("../images/projects.jpg");
+  min-height: 400px;
+  padding: 50px 80px;
 }
 
-/* Title Image */
-.title-image {
-  width: 60%;
-  transform: rotate(25deg);
-  position: absolute;
-  right: 25%;
+#projects p {
+  padding: 0 150px 20px;
+  line-height: 2rem;
+  color: rgba(255, 255, 255, .5);
+  text-align: center;
 }
 
-/* Features */
-#features {
+#projects h3 {
+  color: rgba(255, 255, 255, .5);
+  font-size: 1rem;
+  padding: 10px 0;
+}
+
+#projects h3:hover {
+  color: #F2F1F0;
+}
+
+#about-me {
+  color: #777;
+  background-color: white;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+}
+
+#skills {
   position: relative;
+  color: #ddd;
+  background-color: #282E34;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
 }
 
-.feature-title {
-  font-size: 1.5rem !important;
+#skills .icons {
+  padding: 4% 2% 0 !important;
 }
 
-.icon {
-  color: #ef8172;
-  margin-bottom: 1rem;
+#skills p {
+  padding: 0;
+  display: inline;
+  line-height: 3rem;
 }
 
-.icon:hover {
-  color: #ff4c68;
+.text-format-2 {
+  background-color: transparent;
+  font-size: 25px;
+  color: #F2F1F0 !important;
+  letter-spacing: 10px;
 }
 
-/* testimonial Section */
-#testimonials {
-  background-color: #ef8172;
+.padding-1 {
+  position: relative;
+  color: #000;
+  padding: 100px !important;
 }
 
-#testimonials .container-fluid {
-  padding: 7% 15% 5% !important;
+.padding-2 {
+  position: relative;
+  color: #000;
+  padding: 70px !important;
 }
 
-.testimonial-image {
-  width: 10%;
-  border-radius: 100%;
-  margin: 20px;
+.text-format-1 {
+  background-color: #111;
+  color: rgba(255, 255, 255, .5);
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  margin-bottom: 30px;
 }
 
-.testimonial-text {
-  font-size: 3rem;
-  line-height: 1.5;
-  padding-bottom: 2%
+.text-format-1:hover {
+  background-color: #090800;
+  color: #ddd;
 }
 
-#press {
-  background-color: #ef8172;
-  padding: 2% 0;
+.elements {
+  color: rgba(255, 255, 255, .5);
 }
 
-.press-logo {
-  width: 15%;
-  margin: 20px 20px 50px;
+.elements:hover {
+  color: #F2F1F0;
 }
 
-/* Pricing Section */
-#pricing {
-  padding: 100px;
+#academic-achievements {
+  color: #777;
+  background-color: #ddd;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
 }
 
-.pricing-column {
-  padding: 3% 2% !important;
+#academic-achievements p {
+  padding: 0;
+  line-height: 2rem;
+  padding: 0 25%;
+  text-align: center;
 }
 
-.price-text {
-  font-size: 3rem;
-  line-height: 1.5;
+#education {
+  background-image: url("../images/education.jpg");
+  min-height: 400px;
+  padding: 0 0 30px;
 }
 
-#footer {
-  padding: 5% 15% !important;
+#education h3 {
+  color: rgba(255, 255, 255, .5) !important;
+  padding: 0;
 }
 
-.social-icon {
-  margin: 20px 10px;
+#education h2 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 15px "Lato", sans-serif !important;
+  color: #111;
+  text-align: center;
+  padding: 2% 20% 2%;
+  color: rgba(255, 255, 255, .5);
 }
 
-.social-icon:hover {
-  color: #8f8f8f;
+#education h2:hover {
+  color: #F2F1F0;
 }
 
+#education p {
+  line-height: 0.5rem;
+  padding: 0 25%;
+  text-align: center;
+  color: rgba(255, 255, 255, .5);
+  font-size: 1rem;
+}
+
+#education .padding-2 {
+  padding: 70px 70px 20px !important;
+}
+
+#language-proficiency {
+  position: relative;
+  color: #ddd;
+  background-color: #282E34;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+}
+
+#language-proficiency h3 {
+  text-align: left;
+  color: #ddd;
+}
+
+#language-proficiency p {
+  padding: 0 5%;
+  display: inline;
+  line-height: 3rem;
+}
+
+#extra-curricular {
+  background-image: url("../images/extracurricular.jpg");
+  min-height: 400px;
+  padding: 0 150px;
+}
+
+#extra-curricular p {
+  line-height: 2rem;
+  color: rgba(255, 255, 255, .5);
+  text-align: center;
+  padding: 5% 0 3%;
+}
+
+#extra-curricular h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 15px "Lato", sans-serif !important;
+  text-align: center;
+  color: rgba(255, 255, 255, .5);
+}
+
+/* Turn off parallax scrolling for tablets and phones */
 @media (max-width: 1024px) {
-  #title .row {
-    text-align: center !important;
+  .navbar-brand {
+    font-size: 1.2rem !important;
   }
 
-  .container-fluid {
-    padding: 7% 10% !important;
+  .nav-item {
+    padding: 20% 3%;
   }
 
-  .download-button {
-    margin: 5% 0;
+  .padding-1 {
+    padding: 40px 70px !important;
   }
 
-  .feature-title {
-    font-size: 1.4rem !important;
+  .text-format-1 {
+    font-size: 15px;
+    letter-spacing: 8px;
+    text-align: center;
+    margin-bottom: 15px;
   }
 
-  .title-image {
-    position: static;
-    transform: rotate(0);
+  .text-format-2 {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 0 0 30px;
+    line-height: 2rem;
   }
 
-  .big-heading {
-    font-size: 2rem !important;
+  #projects p {
+    line-height: 2rem;
+    padding: 0;
   }
 
-  .section-heading {
-    font-size: 1.5rem !important;
+  #academic-achievements h3 {
+    font-size: 1.2rem;
   }
 
-  .testimonial-text {
-    font-size: 1.6rem !important;
+  #academic-achievements h2 {
+    font-size: 1rem !important;
   }
 
-  #testimonials .container-fluid {
-    padding: 7% 15% 15% !important;
+  #academic-achievements p {
+    padding: 0 10%;
   }
 
-  .testimonial-image {
-    width: 20% !important;
+  #education h2 {
+    padding: 2% 10% 2%;
   }
 
-  #pricing {
-    padding: 50px;
+  #language-proficiency h3 {
+    text-align: center;
+    font-size: 1.2rem;
   }
 
-  .price-text {
-    font-size: 2rem !important;
+  #extra-curricular {
+    padding: 30px 50px 0;
   }
 
-  .press-logo {
-    width: 20% !important;
-    margin: 20px 20px 40px;
+  #extra-curricular p {
+    padding: 5% 0 0;
   }
 }
