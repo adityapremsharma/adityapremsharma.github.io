@@ -2,11 +2,11 @@
 <html>
 
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Resume</title>
-
+  <meta charset="utf-8">
+  <title>TinDog</title>
   <link rel="stylesheet" href="css/styles.css">
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -17,362 +17,203 @@
   <!-- google font links -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;0,900;1,300&family=Ubuntu&display=swap" rel="stylesheet">
 
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="stylesheet">
-
   <!-- Font Awesome Icons link -->
   <link href="css\fontawesome\css\all.css" rel="stylesheet">
 </head>
 
 <body>
 
-  <section id="intro">
+  <section class="colored-section" id="title">
     <div class="container-fluid">
-      <nav class="navbar navbar-expand navbar-dark">
-        <a class="navbar-brand" href="#">Aditya Prem Sharma</a>
-
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/aditya-prem-sharma/"><i class="social-icon fab fa-linkedin fa-lg"></i></a></li>
-          <li class="nav-item"><a class="nav-link" href="mailto:adityapremsharma@gmail.com"><i class="social-icon fas fa-envelope fa-lg"></i></a></li>
-          <li class="nav-item"><a class="nav-link" href="tel:+919693716231"><i class="social-icon fas fa-phone fa-lg"></i></a></li>
-        </ul>
-      </nav>
-
-      <div class="row padding-1">
-        <div class="col-lg-6 col-md-6">
-          <a class="inherit" href="#certifications">
-            <h2 class="text-format-1">CERTIFICATIONS</h2>
-          </a>
-          <a class="inherit" href="#skills">
-            <h2 class="text-format-1">SKILLS</h2>
-          </a>
-          <a class="inherit" href="#projects">
-            <h2 class="text-format-1">PROJECTS</h2>
-          </a>
-          <a class="inherit" href="#academic-achievements">
-            <h2 class="text-format-1">ACADEMIC ACHIEVEMENTS</h2>
-          </a>
-
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-md navbar-dark">
+        <a class="navbar-brand" href="#">tindog</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#footer">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+            <li class="nav-item"><a class="nav-link" href="#cta">Download</a></li>
+          </ul>
         </div>
-
-
+      </nav>
+      <!-- Title -->
+      <div class="row">
         <div class="col-lg-6 col-md-6">
-          <a class="inherit" href="#education">
-            <h2 class="text-format-1">EDUCATION</h2>
-          </a>
-
-          <a class="inherit" href="#language-proficiency">
-            <h2 class="text-format-1">LANGUAGE PROFICIENCY</h2>
-          </a>
-
-          <a class="inherit" href="#extra-curricular">
-            <h2 class="text-format-1">EXTRA CURRICULAR</h2>
-          </a>
-
+          <h1 class="big-heading">Meet new and interesting dogs nearby.</h1>
+          <button type="button" class="btn btn-dark download-button"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light download-button"><i class="fab fa-google-play"></i> Download</button>
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <img src="images/dog-iphone6.png" class="title-image" alt="iphone-mockup">
         </div>
       </div>
-
     </div>
   </section>
 
-  <section id="about-me">
-    <h3>About Me</h3>
-    <p>Fourth-year student with specialization in Informatica which deals
-      with Enterprise Cloud Data Management and Data Integration. IT
-      fundamentals, always keen on learning new technologies. Currently
-      working on Data analytics and Advanced Web Development.
-    </p>
-  </section>
 
-  <section id="certifications">
+  <!-- Features -->
 
-    <div class="padding-2 container-fluid">
-
-      <div class="text-format-2">
-        <p>CERTIFICATIONS [CLICK TO VIEW CERTIFICATE]</p>
-
-      </div>
+  <section class="white-section" id="features">
+    <div class="container-fluid">
 
       <div class="row">
-        <div class="icons col-lg-4 col-md-4 col-sm-6">
-          <a class="inherit" href="https://www.coursera.org/account/accomplishments/certificate/YQMEC647WYX8"><i class="elements far fa-registered fa-4x"></i>
-            <p class="elements">R Programming [Sept 2020]</p>
-          </a>
+        <div class="feature-box col-lg-4 col-md-4">
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <h3 class="feature-title">Easy to use.</h3>
+          <p>So easy to use, even your dog could do it.</p>
         </div>
-        <div class="icons col-lg-4 col-md-4 col-sm-6">
-          <a class="inherit" href="https://www.coursera.org/account/accomplishments/certificate/SSXL9WEH43E5"><i class="elements fas fa-poll-h fa-4x"></i>
-            <p class="elements">Excel Skills for Business: Essentials [June 2020]</p>
-          </a>
-
+        <div class="feature-box col-lg-4 col-md-4">
+          <i class="icon fas fa-bullseye fa-4x"></i>
+          <h3 class="feature-title">Elite Clientele</h3>
+          <p>We have all the dogs, the greatest dogs.</p>
         </div>
-        <div class="icons col-lg-4 col-md-4 col-sm-6">
-          <a class="inherit" href="https://www.coursera.org/account/accomplishments/certificate/VW8LXWQ36MXX"><i class="elements far fa-file-excel fa-4x"></i>
-            <p class="elements">Excel Skills for Business: Intermediate I [June 2020]</p>
-          </a>
+        <div class="feature-box col-lg-4 col-md-4">
+          <i class="icon fas fa-heart fa-4x"></i>
+          <h3 class="feature-title">Guaranteed to work.</h3>
+          <p>Find the love of your dog's life or your money back.</p>
         </div>
-
-        <div class="icons col-lg-4 col-md-4 col-sm-6">
-          <a class="inherit" href="https://www.coursera.org/account/accomplishments/certificate/5NHUGXDC6S25"><i class="elements fas fa-poll-h fa-4x"></i>
-            <p class="elements">Marketing in a Digital World [May 2020]</p>
-          </a>
-
-        </div>
-        <div class="icons col-lg-4 col-md-4 col-sm-6">
-          <a class="inherit" href="https://drive.google.com/file/d/1-2zzsZk57ErGdi9chq02PWKSJowBUny8/view"><i class="elements fas fa-poll-h fa-4x"></i>
-            <p class="elements">Digital Marketing [August 2019]</p>
-          </a>
-
-        </div>
-        <div class="icons col-lg-4 col-md-4 col-sm-6">
-          <a class="inherit" href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=a2826e06-0d06-4409-969e-03a0469a143b"><i class="elements fas fa-square-root-alt fa-4x"></i>
-            <p class="elements">MATLAB Onramp [August 2019]</p>
-          </a>
-
-        </div>
-
-
-        <div class="icons col-lg-4 col-md-4 col-sm-6">
-          <i class="elements far fa-file-code fa-4x"></i>
-          <p class="elements">Complete Web Development Bootcamp [Ongoing]</p>
-        </div>
-        <div class="icons col-lg-4 col-md-4 col-sm-6">
-          <i class="elements fas fa-chart-area fa-4x"></i>
-          <p class="elements">Complete Data Science Bootcamp [Ongoing]</p>
-        </div>
-
       </div>
+
     </div>
   </section>
 
-  <section id="skills">
 
-    <div class="text-format-2">
-      <a href="#intro"><i class="back fas fa-chevron-circle-left fa-2x"></i></a>
+  <!-- Testimonials -->
 
-      <p>SKILLS</p>
+  <section class="colored-section" id="testimonials">
 
+    <div id="testimonial-carousel" class="carousel slide" data-ride="carousel" data-pause="hover">
+      <ol class="carousel-indicators">
+        <li data-target="#testimonial-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#testimonial-carousel" data-slide-to="1"></li>
+        <li data-target="#testimonial-carousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">I no longer hab to sniff other dogs for lub. I hab found the hawtest Corgi on TinDog. Woof.</h2>
+          <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
+          <em>Pebbles, New York</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life.</h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">I hab found my Pawfect Partnur. We lub each other sooo much.<br>Woof Woof.</h2>
+          <img class="testimonial-image" src="images/dog2-img.jpg" alt="dog2-profile">
+          <em>Pluffy, Boston</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section class="colored-section" id="press">
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section class="white-section" id="pricing">
+
+    <h2 class="section-heading">A Plan for Every Dog's Needs</h2>
+    <p>Simple and affordable price plans for your and your dog.</p>
 
     <div class="row">
-      <div class="col-lg-6 col-md-6">
-        <i class="icons fas fa-database"></i>
-        <p>Data Integration (On-premise and Cloud)</p>
+      <div class="pricing-column col-lg-4 col-md-4 col-sm-6 col-12">
+        <div class="card">
+          <div class="card-header">
+            <h3>Chihuahua</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">Free</h2>
+            <p>5 Matches Per Day</p>
+            <p>10 Messages Per Day</p>
+            <p>Unlimited App Usage</p>
+            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+          </div>
+        </div>
       </div>
-      <div class="col-lg-6 col-md-6">
-        <i class="icons fab fa-python"></i>
-        <p>Programming (C, C++, Python, R)</p>
+      <div class="pricing-column col-lg-4 col-md-4 col-sm-6 col-12">
+        <div class="card">
+          <div class="card-header">
+            <h3>Labrador</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$49 / mo</h2>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+          </div>
+        </div>
       </div>
-      <div class="col-lg-6 col-md-6">
-        <i class="icons fas fa-table"></i>
-        <p>DBMS and SQL</p>
+      <div class="pricing-column col-lg-4 col-md-4 col-sm-12 col-12">
+        <div class="card">
+          <div class="card-header">
+            <h3>Mastiff</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$99 / mo</h2>
+            <p>Pirority Listing</p>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+          </div>
+        </div>
       </div>
-      <div class="col-lg-6 col-md-6">
-        <i class="icons far fa-file-excel"></i>
-        <p>Microsoft Excel</p>
-      </div>
-      <div class="col-lg-6 col-md-6">
-        <i class="icons far fa-file-code"></i>
-        <p>Web Development (HTML 5, CSS, JavaScript,
-          Bootstrap)</p>
-      </div>
-      <div class="col-lg-6 col-md-6">
-        <i class="icons elements fas fa-poll-h"></i>
-        <p>Digital Marketing</p>
-      </div>
-      <div class="col-lg-6 col-md-6">
-        <i class="icons fab fa-ubuntu"></i>
-        <p>Operating Systems</p>
-      </div>
-      <div class="col-lg-6 col-md-6">
-        <i class="icons far fa-clock"></i>
-        <p>Business Management Skills</p>
-      </div>
-      <div class="col-lg-6 col-md-6">
-        <i class="icons fas fa-project-diagram"></i>
-        <p>Project Management</p>
-      </div>
-      <div class="col-lg-6 col-md-6">
-        <i class="icons fas fa-male"></i>
-        <p>Leadership</p>
-      </div>
+
     </div>
 
   </section>
 
-  <section id="projects">
 
-    <div class="text-format-2">
-      <p>PROJECTS [CLICK TO VIEW PROJECTS]</p>
-    </div>
-    <div class="">
-      <a class="inherit" href="https://mk0analyticsindf35n9.kinstacdn.com/wp-content/uploads/2017/06/876789.png">
-        <h3>Build a Data Science Web App with Streamlit and Python
-          [Sept 2020]:</h3>
-      </a>
+  <!-- Call to Action -->
 
-      <p>In this task, I have made a streamlit Web Application to analyze the
-        number of vehicle crash in NYC from a pre-existing dataset by using
-        various functionalities using different Python libraries (streamlit,
-        pandas, numpy, pydeck, plotly.express).
-      </p>
-    </div>
-    <div class="">
-      <a class="inherit" href="https://media.tenor.com/images/a12bf689a82bfda98d1c92d05f0fdd1f/tenor.gif">
-        <h3>Analyzing Company’s Performance Using Ratios [July 2020]:</h3>
-      </a>
+  <section class="colored-section" id="cta">
+    <div class="container-fluid">
 
-      <p>In this task, I have analyzed company's performance using Return on
-        Sales, Current Ratio, Quick Ratio, Asset Turnover, Debt-to-equity,
-        Interest cover and few other terms.</p>
-
-    </div>
-    <div class="">
-      <a class="inherit" href="https://cdn.britannica.com/19/213119-050-C81C786D/Grumpy-Cat-2015-memes.jpg">
-        <h3>Compare Stock Returns with Google Sheets [July 2020]:</h3>
-      </a>
-
-      <p>In this task, I have calculated Sharpe and Sortino Ratios to analyze
-        the risk associated with investing in different companies and analyze
-        its outcome</p>
-
-    </div>
-    <div class="">
-      <a class="inherit" href="https://i.chzbgr.com/full/7710014208/h17F658B7/i-can-create-website-using-html-css-javascript">
-        <h3>Designing of 15 Interfaces for University Management System
-          (HCI) [Dec 2019]:</h3>
-      </a>
-
-      <p>It is a interface designing project which contains several interfaces
-        required in a UMS. Used HTML/CSS to design every interface.</p>
-
-    </div>
-    <div class="">
-      <a class="inherit" href="https://memegenerator.net/img/instances/53514731.jpg">
-        <h3>Zombie Dice Game (C/C++) [Apr 2019]:</h3>
-      </a>
-
-      <p>It is a well-known board game. Used several functions for every functionality of the game.
-        Used loops, statements, pointers, arrays in this program.</p>
-
-    </div>
-    <div class="">
-      <a class="inherit" href="https://thumbs.dreamstime.com/z/crazy-electronic-calculator-calculation-wrong-detail-crazy-electronic-calculator-calculation-wrong-105762085.jpg">
-        <h3> Scientific Calculator (Python) [Dec 2018]:</h3>
-      </a>
-
-      <p>It is a calculator with some advanced calculation functionalities as
-        compared to basic traditional calculator. Used modules to create a
-        GUI interface which looks and does the exact same thing like a
-        scientific calculator. Used built-in functions to provide functionality
-        to the operations.</p>
-
-    </div>
-    <div class="">
-      <a class="inherit" href="https://thefunnyplace.org/wp-content/uploads/2013/10/Calendar-goes-WTF.jpg">
-        <h3>Calendar (C++) [May 2018]:</h3>
-      </a>
-
-      <p>It is a simple program which shows the desired year calendar and
-        even gives the day of a particular date. Used several functions for
-        every functionality of the calendar. Used loops, statements, arrays in
-        this program.
-      </p>
+      <h3 class="big-heading">Find the True Love of Your Dog's Life Today.</h3>
+      <button type="button" class="btn btn-lg btn-dark download-button"><i class="fab fa-apple"></i> Download</button>
+      <button type="button" class="btn btn-lg btn-light download-button"><i class="fab fa-google-play"></i> Download</button>
 
     </div>
   </section>
 
-  <section id="academic-achievements">
 
-    <h3>ACADEMIC ACHIEVEMENTS</h3>
+  <!-- Footer -->
 
-    <div class="row">
-      <div class="col-lg-6 col-md-6">
-        <h2>Attended a Semester Abroad</h2>
-        <p>Studied a semester in IMT Lille Douai, France</p>
-        <p>Major – “Automation of Industrial Process and Quality
-          Management”</p>
-        <p>Only CSE/IT student got Selected for this program</p>
-        <p>Two teacher Recommendations</p>
-        </p>
-      </div>
-      <div class="col-lg-6 col-md-6">
-        <h2>Company Secretary (ICSI)</h2>
-        <p>Cleared Foundation Program</p>
-        <p>Appearing for the Executive Program</p>
-      </div>
-    </div>
+  <footer class="white-section" id="footer">
+    <i class="social-icon fab fa-twitter"></i>
+    <i class="social-icon fab fa-facebook-f"></i>
+    <i class="social-icon fab fa-instagram"></i>
+    <i class="social-icon fas fa-envelope"></i>
+    <p>© Copyright 2020 TinDog</p>
 
-  </section>
-
-  <section id="education">
-
-    <div class="padding-2">
-
-      <h3 class="text-format-2">Education [CLICK TO VIEW CERTIFICATE]</h3>
-    </div>
-    <div class="">
-      <a class="inherit" href="https://i.ibb.co/kSSjYk7/thinking-emoji.png">
-        <h2>Bachelors in Information Technology, Lovely Professional University, Punjab (2017 – 2021):</h2>
-      </a>
-
-      <p>Engineering Minor – Informatica</p>
-      <p>Aggregate CGPA – LOL</p>
-    </div>
-    <div class="">
-      <a class="inherit" href="https://i.pinimg.com/originals/89/1f/9e/891f9ee33524dcff9fdda13d55eb4e41.jpg">
-        <h2>12th (Secondary School, CBSE), Baldwin Academy, Patna (Passed in 2016):</h2>
-      </a>
-
-      <p>Stream – Science</p>
-      <p>Percentage – LMFAO</p>
-    </div>
-    <div class="">
-      <a class="inherit" href="https://pbs.twimg.com/media/EEdoFAFXYAA72Az.jpg">
-        <h2>10th (Secondary School, CBSE), Baldwin Academy, Patna (Passed in 2014):</h2>
-      </a>
-
-      <p>CGPA – ROFL</p>
-    </div>
-  </section>
-
-  <section id="language-proficiency">
-
-    <div class="text-format-2">
-      <a href="#intro"><i class="back fas fa-chevron-circle-left fa-2x"></i></a>
-
-      <h3>LANGUAGE PROFICIENCY</h3>
-    </div>
-    <div class="row">
-      <div class="col-lg-4 col-md-4">
-        <p>French – READ</p>
-      </div>
-      <div class="col-lg-4 col-md-4">
-        <p>English – READ | WRITE | SPEAK</p>
-      </div>
-      <div class="col-lg-4 col-md-4">
-        <p>Hindi – READ | WRITE | SPEAK</p>
-      </div>
-    </div>
-
-  </section>
-  <section id="extra-curricular">
-
-    <div class="text-format-2">
-
-      <p>EXTRA CURRICULAR</p>
-    </div>
-    <div class="row">
-      <div class="col-lg-6 col-md-6">
-        <h3>Brown Belt in Karate</h3>
-        <p class="line-height">Under South-East Asia Seiyo No Shorin Kyu Karate Kabudo Kai Federation (in 2015), Rank – 4th, Attended various championships and competitions in karate</p>
-      </div>
-      <div class="col-lg-6 col-md-6">
-        <h3>Music Production and Sound Engineering</h3>
-        <p>Doing Certifications</p>
-      </div>
-    </div>
+  </footer>
 
 
-  </section>
 </body>
 
 </html>
